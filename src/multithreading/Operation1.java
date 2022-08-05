@@ -1,4 +1,4 @@
-package method;
+package multithreading;
 
 public class Operation1 implements Runnable {
     public Main main;

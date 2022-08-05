@@ -1,4 +1,4 @@
-package method;
+package multithreading;
 
 public class OperationWithoutNotify implements Runnable{
 

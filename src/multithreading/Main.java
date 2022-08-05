@@ -1,4 +1,4 @@
-package method;
+package multithreading;
 
 public class Main {
     private int counter;
@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("processing started called by " + Thread.currentThread().getName());
         Main m1 = new Main();
-   //     m1.testWaitAndNotifyConcepts();
-        m1.testWithoutNotifyConcepts();
+        m1.testWaitAndNotifyConcepts();
+   //     m1.testWithoutNotifyConcepts();
     }
 
     public void testWithoutNotifyConcepts()
